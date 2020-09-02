@@ -11,18 +11,18 @@ customHead = ""
 # Navigation
 [params.navigation]
 logo = "images/logo.png"
-home = "Home"
-about = "About"
-service = "Services"
-contact = "Contact"
+home = "DOMŮ"
+about = "O NÁS"
+service = "NAŠE SLUŽBY"
+contact = "KONTAKT"
 
 # Hero Area
 [params.hero]
 enable            = true
 bg                = "images/header-bg.jpg"
-title             = "BRING YOUR PRODUCT TO LIGHT"
-subtitle          = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna"
-btnText           = "Get Started"
+title             = "NEPLÝTVEJ... ZUŽITKUJ!"
+subtitle          = ""
+btnText           = "NAŠE SLUŽBY"
 
 # counter
 disableCountdown  = false
@@ -33,8 +33,12 @@ countdownDay  = "31"
 # About Section
 [params.about]
 enable      = true
-heading     = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam ipsa recusandae consequatur veniam, reiciendis odit quia eaque vel eius a."
-description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ulla-mco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, aspernatur."
+heading     = ""
+description = [
+"Júlia a Tereza, kterým není jedno co se kolem nich děje a rády posouvají věci kupředu. Každodenní rozhodnutí kohokoliv z nás ovlivňuje svět, ve kterém žijeme, a budou žít další generace. Ano, každý z nás může jako jednotlivec změnit svět, ale my bychom se rády zaměřili na firmy a korporace, které mají dopad na životní prostředí mnohonásobně větší a i malá změna může mít daleko větší dosah.",
+]
+
+
 
 [[params.about.sliderItem]]
 image   = "images/about/1.jpg"
@@ -49,80 +53,77 @@ image   = "images/about/2.jpg"
 # Service Section
 [params.service]
 enable      = true
-title       = "Find Better Solutions Build Better Products"
-subtitle    = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et"
-[[params.service.serviceItem]]
-# give icon(themefisher icon font), title, description
-# more about themefisher icon font visit https://github.com/themefisher/themefisher-font
-# use delay for reveal items one by one
-icon    = "tf-strategy"
-title   = "Fully Responsive"
-description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+title       = "NAŠE SLUŽBY"
+subtitle    = ""
+
+[[params.service.serviceRow]]
+color = "#88e8e4"
+
+[[params.service.serviceRow.seviceItem]]
+description = "revize stávajícího systému odpadového hospodářství"
 delay   = "0s"
 
-[[params.service.serviceItem]]
-# give icon(themefisher icon font), title, description
-# more about themefisher icon font visit https://github.com/themefisher/themefisher-font
-# use delay for reveal items one by one
-icon    = "tf-circle-compass"
-title   = "Speed Optimized"
-description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+[[params.service.serviceRow.seviceItem]]
+description = "zmapování toku jednotlivých druhů odpadu od místa jejich vzniku až po předání k likvidaci"
 delay   = "0.2s"
 
-[[params.service.serviceItem]]
-# give icon(themefisher icon font), title, description
-# more about themefisher icon font visit https://github.com/themefisher/themefisher-font
-# use delay for reveal items one by one
-icon    = "tf-anchor2"
-title   = "Tons of Feature"
-description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
-delay   = "0.4s"
-
-[[params.service.serviceItem]]
-# give icon(themefisher icon font), title, description
-# more about themefisher icon font visit https://github.com/themefisher/themefisher-font
-# use delay for reveal items one by one
-icon    = "tf-globe"
-title   = "Fully SEO Optimized"
-description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+[[params.service.serviceRow.seviceItem]]
+description = "průběžná evidence odpadů"
 delay   = "0.6s"
 
-[[params.service.serviceItem]]
-# give icon(themefisher icon font), title, description
-# more about themefisher icon font visit https://github.com/themefisher/themefisher-font
-# use delay for reveal items one by one
-icon    = "tf-strategy"
-title   = "Fully Responsive"
-description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+[[params.service.serviceRow.seviceItem]]
+description = "zpracování ročního hlášení o produkci a nakládání s odpady a výkazu o odpadech a druhotných surovinách"
 delay   = "0.8s"
 
-[[params.service.serviceItem]]
-# give icon(themefisher icon font), title, description
-# more about themefisher icon font visit https://github.com/themefisher/themefisher-font
-# use delay for reveal items one by one
-icon    = "tf-circle-compass"
-title   = "Speed Optimized"
-description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+############
+# NEXT ROW #
+############
+
+
+[[params.service.serviceRow]]
+color="#88bbe8"
+
+[[params.service.serviceRow.seviceItem]]
+description = "posouzení stavu systému vzhledem k požadavkům ISO 14001:2015"
+delay   = "0.4s"
+
+[[params.service.serviceRow.seviceItem]]
+description = "navržení postupu implementace a nastavení systému dle požadavků normy"
 delay   = "1s"
 
-[[params.service.serviceItem]]
-# give icon(themefisher icon font), title, description
-# more about themefisher icon font visit https://github.com/themefisher/themefisher-font
-# use delay for reveal items one by one
-icon    = "tf-anchor2"
-title   = "Tons of Feature"
-description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+[[params.service.serviceRow.seviceItem]]
+description = "realizace situačního auditu jako forma kontroly připravenosti společnosti na certifikaci"
 delay   = "1.2s"
 
-[[params.service.serviceItem]]
-# give icon(themefisher icon font), title, description
-# more about themefisher icon font visit https://github.com/themefisher/themefisher-font
-# use delay for reveal items one by one
-icon    = "tf-globe"
-title   = "Fully SEO Optimized"
-description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+[[params.service.serviceRow.seviceItem]]
+description = "účast na certifikačním auditu účast na certifikačním auditu účast na certifikačním auditu"
 delay   = "1.5s"
 
+
+############
+# NEXT ROW #
+############
+
+
+[[params.service.serviceRow]]
+color="#88e8b5"
+
+[[params.service.serviceRow.seviceItem]]
+description = "návrh environmentální vize a podmínek pro její naplnění"
+delay   = "0.4s"
+
+
+[[params.service.serviceRow.seviceItem]]
+description = "návrh a podpora realizace environmentálních projektů"
+delay   = "1s"
+
+[[params.service.serviceRow.seviceItem]]
+description = "poradenství a účast na výběrovém řízení ideálního partnera zajišťujícího služby v oblasti fyzické likvidace odpadů"
+delay   = "1.2s"
+
+[[params.service.serviceRow.seviceItem]]
+description = "BLABLABLABLABLA"
+delay   = "1.5s"
 
 # Call to Action Section
 [params.cta]
@@ -133,5 +134,5 @@ subtitle    = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
 
 [params.contact]
 enable      = true
-title       = "Get In Touch"
-subtitle    = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex"
+title       = "KONTAKTUJTE NÁS"
+subtitle    = ""
