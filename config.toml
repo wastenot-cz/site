@@ -134,3 +134,7 @@ subtitle    = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
 enable      = true
 title       = "KONTAKTUJTE NÁS"
 subtitle    = ""
+namePlaceholder = "Jmeno"
+emailPlaceholder = "E-mail"
+textPlaceholder = "Vase zprava"
+endButtonText = "ODESLAT"
