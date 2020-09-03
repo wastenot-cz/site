@@ -1,4 +1,4 @@
-baseURL = "https://www.example.com"
+baseURL = "https://wastenot.cz/"
 languageCode = "en-us"
 title = "Infinity | Comming Soon Hugo Template By Themefisher"
 theme = "infinity-hugo"
@@ -79,31 +79,29 @@ delay   = "0.8s"
 # NEXT ROW #
 ############
 
-
 [[params.service.serviceRow]]
 color="#88bbe8"
 
 [[params.service.serviceRow.seviceItem]]
 description = "posouzení stavu systému vzhledem k požadavkům ISO 14001:2015"
-delay   = "0.4s"
+delay   = "0.3s"
 
 [[params.service.serviceRow.seviceItem]]
 description = "navržení postupu implementace a nastavení systému dle požadavků normy"
-delay   = "1s"
+delay   = "0.8s"
 
 [[params.service.serviceRow.seviceItem]]
 description = "realizace situačního auditu jako forma kontroly připravenosti společnosti na certifikaci"
-delay   = "1.2s"
+delay   = "1s"
 
 [[params.service.serviceRow.seviceItem]]
 description = "účast na certifikačním auditu účast na certifikačním auditu účast na certifikačním auditu"
-delay   = "1.5s"
+delay   = "1.2s"
 
 
 ############
 # NEXT ROW #
 ############
-
 
 [[params.service.serviceRow]]
 color="#88e8b5"
@@ -122,7 +120,7 @@ description = "poradenství a účast na výběrovém řízení ideálního part
 delay   = "1.2s"
 
 [[params.service.serviceRow.seviceItem]]
-description = "BLABLABLABLABLA"
+description = "BLA BLA BLA BLA BLA"
 delay   = "1.5s"
 
 # Call to Action Section
